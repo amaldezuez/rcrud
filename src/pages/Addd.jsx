@@ -10,15 +10,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 
 function Addd() {
-    // const [data,setdata]=useState(
-    //     {
-    //       headline:"",
-    //       thumbnail:"",
-    //       place:"",
-    //       description:""
-    //     }
-   
-    //   )
 
     const [head,sethead]=useState("")
     const [Thumb,setThumb]=useState("")
@@ -47,7 +38,7 @@ function Addd() {
     <div>
     <Row>
       <Col sm={12} className='mt-5 ms-5'>
-      <button className='btn btn-info btn-xl' onClick={handleShow} style={{padding:'8px 30px'}}>Add News<Badge className='bg-info shadow ms-3'><span>+</span></Badge></button>
+      <button className='btn btn-dark btn-xl' onClick={handleShow} style={{padding:'8px 30px'}}>Add News<Badge className='bg-dark shadow ms-3'><span>+</span></Badge></button>
       </Col>
     </Row>
 

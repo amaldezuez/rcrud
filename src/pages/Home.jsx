@@ -13,7 +13,7 @@ function Home() {
       <div className=''>
         <Row className=' '>
           <Col sm={6} className='bg-succes ' >
-          <img className=' img-fluid mt-5 ms-4' src={img} style={{height:'500px'}} ></img>
+          <img className=' img-fluid mt-5 ms-4' src={img} style={{height:'450px'}} ></img>
           </Col>
           <Col sm={6}  style={{textAlign:'justify' ,}} className='mt-5 text-center'>
        
@@ -28,7 +28,7 @@ function Home() {
           
             <Link to={'/news'}> <div className='d-grid mt-5'>
          
-        <button className='btn  btn-info border-3 text-light' style={{padding:'5px 46px'}}>Read It</button>
+        <button className='btn  btn-info border-3 text-light' style={{padding:'5px 46px'}}>Explore More</button>
          </div></Link>
           </Col>
   

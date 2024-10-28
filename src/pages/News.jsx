@@ -34,19 +34,13 @@ const news=useSelector((state)=>state.news.user)
       <>
       
       {
-
-        
-        news.map(item=>(
+      news.map(item=>(
 
           <Card style={{ width: '25rem' }} className='me- mb-3' >
-             
-              
-                <Card.Img variant="top" className='img-fluid parent' src={item?.Thumb}  style={{width:'100%',height:'200px',objectFit:'cover'}}/>
+             <Card.Img variant="top" className='img-fluid parent' src={item?.Thumb}  style={{width:'100%',height:'200px',objectFit:'cover'}}/>
                 <Card.Body>
                   <Card.Title className='text-center text-dark'style={{fontSize:'30px',fontWeight:'bolder'}} >{item?.head}</Card.Title>
-          
-           
-                  <Card.Text>
+             <Card.Text>
                     <strong className='text-dark'style={{fontSize:'18px'}}>{item?.place}:</strong><span style={{fontSize:'14px'}}>{item?.des}
            </span> 
                   </Card.Text><div className='d-flex justify-content-between p-3'>
@@ -61,7 +55,7 @@ const news=useSelector((state)=>state.news.user)
               </Card>
                 ))
               } 
-              </> :<h3 className='text-danger'><i>No New's</i> </h3>
+              </> :<h3 className='text-dark'><i>No New's </i> </h3>
      
               
 
