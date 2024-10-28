@@ -55,7 +55,7 @@ const news=useSelector((state)=>state.news.user)
               </Card>
                 ))
               } 
-              </> :<h3 className='text-dark'><i>No New's </i> </h3>
+              </> :<h3 className='text-dark'><i>Nothings here </i> </h3>
      
               
 

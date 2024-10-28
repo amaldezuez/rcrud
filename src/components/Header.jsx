@@ -13,7 +13,7 @@ function Header() {
             <Navbar.Brand href="#home" className=''>
             <i className="fa-brands fa-square-youtube fa-2xl fa-fade me-3"  style={{color:'red'}}/>
                 {' '}
-               <b style={{color:'white'}}> NEWS </b>
+               <b style={{color:'white'}}> TODO LIST </b>
             </Navbar.Brand>
             </div>
            </Container>

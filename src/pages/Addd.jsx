@@ -38,7 +38,7 @@ function Addd() {
     <div>
     <Row>
       <Col sm={12} className='mt-5 ms-5'>
-      <button className='btn btn-dark btn-xl' onClick={handleShow} style={{padding:'8px 30px'}}>Add News<Badge className='bg-dark shadow ms-3'><span>+</span></Badge></button>
+      <button className='btn btn-dark btn-xl' onClick={handleShow} style={{padding:'8px 30px'}}>Add <Badge className='bg-dark shadow ms-3'><span>+</span></Badge></button>
       </Col>
     </Row>
 
@@ -55,18 +55,16 @@ function Addd() {
 
         <FloatingLabel
         controlId="floatingInputid"
-        label="News Headline"
+        label=" Headline"
         className="mb-3"
       >
         <Form.Control type="text" onChange={(e)=>sethead(e.target.value)} placeholder="name@example.com" />
       </FloatingLabel>
-      <FloatingLabel className="mb-3" controlId="floatingheading" label="News Thumbnail">
+      <FloatingLabel className="mb-3" controlId="floatingheading" label=" Thumbnail">
         <Form.Control type="text" onChange={(e)=>setThumb(e.target.value)} placeholder="Password" />
       </FloatingLabel>
-      <FloatingLabel className="mb-3" controlId="floatingheading" label="Place">
-        <Form.Control  type="text" onChange={(e)=>setplace(e.target.value)} placeholder="" />
-      </FloatingLabel>
-      <FloatingLabel  controlId="floatingheading" label=" News Description">
+      
+      <FloatingLabel  controlId="floatingheading" label=" Todo Description">
         <Form.Control type="text" onChange={(e)=>setdes(e.target.value)} placeholder="Password" />
       </FloatingLabel>
 
